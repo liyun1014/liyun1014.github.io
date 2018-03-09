@@ -876,12 +876,6 @@ a:hover span {
 .british-swimming .icon-grid svg {
   stroke: #11a2e5; }
 
-.thomlinsons .se-pre-con:before {
-  background-image: url("../img/projects/thomlinsons/thomlinsons-hero.jpg"); }
-
-.thomlinsons .hero-image:before {
-  background-image: url("../img/projects/thomlinsons/thomlinsons-hero.jpg"); }
-
 .thomlinsons .blue-block:before {
   background: #ffb717; }
 
@@ -1569,7 +1563,7 @@ footer {
       footer:before {
         width: 0; } }
   footer:after {
-    content: 'holla';
+    content: 'liyun';
     font-family: 'summer_heartsregular';
     position: absolute;
     left: 0;
@@ -1673,7 +1667,7 @@ footer {
     clear: both; }
   @media screen and (min-width: 1025px) {
     .footer-links {
-      padding: 50px 10% 55px 10% !important; } }
+      padding: 50px 10% 75px 10% !important; } }
   .footer-links .social {
     float: left;
     direction: ltr;
@@ -1729,6 +1723,7 @@ footer {
       .footer-links .social.on-screen li:nth-child(5) {
         transition-delay: 0.4s; }
   .footer-links .top {
+    height: 30px;
     float: left;
     direction: ltr;
     padding-left: 7.5px;
@@ -1739,7 +1734,7 @@ footer {
         padding-right: 22.5px !important; } }
     @media screen and (min-width: 769px) {
       .footer-links .top {
-        width: 50%; } }
+        width: 100%; } }
     .footer-links .top a {
       float: right;
       font-size: 13px;
@@ -3662,3 +3657,8 @@ input[type=text]:focus, textarea:focus {
   transform: translateY(0px); }
   .loaded.homepage .project-list .archive-list.open li:nth-of-type(1) {
     transition-delay: 0.2s; }
+
+  .getInTouch p{
+    width: 100%;
+    text-align: center;
+  }
